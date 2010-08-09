@@ -36,5 +36,5 @@ if (submitLink.getAttribute('onclick') === expected) {
   submitLink.removeAttribute('onclick');
   submitLink.addEventListener('click', nonValidatingLogin, false);
   document.getElementById('serversideError').innerHTML =
-      '<div style="background-color:yellow">Validation disabled by Dominic.</div>';
+      '<div style="background-color:yellow">Validation disabled (<a href="http://github.com/happygiraffe/asda-cc-login-fix/#readme">details</a>).</div>';
 }
