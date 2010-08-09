@@ -1,11 +1,11 @@
 {
-   "content_scripts": [ {
-      "exclude_globs": [  ],
-      "include_globs": [  ],
-      "js": [ "script.js" ],
-      "matches": [ "https://www.santandercards.co.uk/eservice/authentication/asda" ]
-   } ],
-   "description": "Make the card login work.",
    "name": "Fix Asda Credit Card Login",
-   "version": "1.0"
+   "version": "1.0",
+   "description": "Make the credit card login work in Chrome.",
+   "content_scripts": [
+     {
+       "js": ["script.js"],
+       "matches": ["https://www.santandercards.co.uk/eservice/authentication/asda"]
+     }
+   ]
 }
