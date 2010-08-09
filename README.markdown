@@ -14,7 +14,7 @@ Caveat
 
 This is my code, which is completely unaffiliated with ASDA, Santander or anybody else.  Use at your own risk.
 
-I encourage you to [read the code](script.js) to understand what it does.
+I encourage you to read the code to understand what it does.
 
 Bug Detail
 ----------
