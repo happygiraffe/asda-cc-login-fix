@@ -51,7 +51,7 @@ function validate(thisform,errorMessages,errorIndex)
     var eldesc=el[i].description;
     var elminvalue=el[i].minimumvalue;
     var elmaxvalue=el[i].maximumvalue;
-    var elleadingzero=el[i].leadingzero;	 	
+    var elleadingzero=el[i].leadingzero;
     if (!eldatatype) continue;
     var elpattern = pattern[eldatatype];
     // …

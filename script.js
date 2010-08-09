@@ -14,12 +14,12 @@
 // JavaScript environment, only bits of the DOM, I have to copy&paste
 // bits of the original source to make this version.
 function nonValidatingLogin() {
-  var accountTextBox = document.getElementById("accountNumber");  
+  var accountTextBox = document.getElementById("accountNumber");
   var accountValue = accountTextBox.value.replace(/[\s-]/g, '');
 
-  var signInForm = document.getElementById("signInForm");     
+  var signInForm = document.getElementById("signInForm");
   signInForm.j_username.value = accountValue + ":" +
-      '858bf8e0-43e4-47ca-b44e-e8459e1fc903' + ":" + 'asda'; 
+      '858bf8e0-43e4-47ca-b44e-e8459e1fc903' + ":" + 'asda';
   signInForm.action = "j_security_check";
   signInForm.method = "post";
 
